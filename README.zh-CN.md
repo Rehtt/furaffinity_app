@@ -13,12 +13,22 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
 | **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
 | **v1.0.0** | [furaffinity_app-1.0.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.0.0/furaffinity_app-1.0.0.apk) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.0.0) |
 
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.1 — 2026-05-25
+
+围绕配置迁移、FurAffinity 内链跳转和认证图片加载修复的发版。
+
+- 新增应用配置备份与恢复，支持 JSON 文件或字符串导出导入
+- 新增 FurAffinity 链接解析，可在应用内跳转用户、作品、合集与搜索页面
+- 外部链接改用浏览器打开，不支持的 FA 页面使用应用内 WebView 兜底
+- 首页新增 URL 跳转入口，可打开粘贴的 FurAffinity 链接
 
 ### v1.1.0 — 2026-05-25
 
