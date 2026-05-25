@@ -13,11 +13,24 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
 | **v1.0.0** | [furaffinity_app-1.0.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.0.0/furaffinity_app-1.0.0.apk) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.0.0) |
 
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.0 — 2026-05-25
+
+围绕标签翻译、个人资料体验和 Android 发版打包的体验改进版本。
+
+- 新增本地标签翻译字典，支持管理词条、JSON 导入 / 导出，以及通过 URL 导入
+- 新增作品标签工具，可保存翻译、翻译选中标签、复制已翻译标签
+- 打开 FA 标签搜索时会为多词标签关键词自动加引号
+- 关于页面新增 GitHub 项目链接
+- 浏览自己的个人资料时隐藏关注按钮
+- Android 包名更新为 `com.rehtt.furaffinity_app`
+- 发版构建现在会发布已签名 APK 和 SHA256 校验文件
 
 ### v1.0.0 — 2026-05-24
 

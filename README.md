@@ -13,11 +13,24 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
 | **v1.0.0** | [furaffinity_app-1.0.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.0.0/furaffinity_app-1.0.0.apk) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.0.0) |
 
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.0 — 2026-05-25
+
+Quality-of-life release for tag translation, profile behavior, and Android release packaging.
+
+- Added a local tag translation dictionary with management, JSON import/export, and import from URL
+- Added submission tag tools to save translations, translate selected tags, and copy translated tags
+- Quote multi-word tag keywords when opening FA tag searches
+- Added a GitHub project link to the About page
+- Hide the watch button when viewing your own profile
+- Updated Android package ID to `com.rehtt.furaffinity_app`
+- Release builds now publish signed APKs with SHA256 checksum files
 
 ### v1.0.0 — 2026-05-24
 
