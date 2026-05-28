@@ -13,6 +13,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
 | **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
 | **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
 | **v1.0.0** | [furaffinity_app-1.0.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.0.0/furaffinity_app-1.0.0.apk) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.0.0) |
@@ -20,6 +21,14 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.2 — 2026-05-28
+
+围绕应用内更新体验与默认主题调整的发版。
+
+- 默认主题模式由跟随系统改为深色
+- 更新提示对话框按当前语言展示 GitHub 发布说明（中/英）
+- 启动时预取最新版本信息，加快更新检查
 
 ### v1.1.1 — 2026-05-25
 

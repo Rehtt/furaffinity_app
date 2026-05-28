@@ -13,6 +13,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
 | **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
 | **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
 | **v1.0.0** | [furaffinity_app-1.0.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.0.0/furaffinity_app-1.0.0.apk) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.0.0) |
@@ -20,6 +21,14 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.2 — 2026-05-28
+
+Release for in-app update experience and default theme adjustment.
+
+- Default theme mode is now dark instead of following system
+- Update prompt now shows localized release notes from GitHub (English/Chinese based on app locale)
+- Prefetch latest release metadata at startup for faster update checks
 
 ### v1.1.1 — 2026-05-25
 
