@@ -8,11 +8,12 @@
 
 ## 下载
 
-**Android**（APK）— 安装到手机后，若系统提示，请允许「未知来源」安装。
+**Android**（APK）— 安装到手机后，若系统提示，请允许「未知来源」安装。下表链接为 universal 包（含全部 CPU 架构）。各版本在 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面还提供体积更小的分架构 APK（多数手机推荐 `arm64-v8a`）。
 
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.4** | [furaffinity_app-1.1.4.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.4) |
 | **v1.1.3** | [furaffinity_app-1.1.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.3) |
 | **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
 | **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
@@ -22,6 +23,16 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.4 — 2026-05-29
+
+下载管理、搜索历史、手动检查更新，以及 GitHub 分架构 APK 发布。
+
+- 下载管理页：浏览、多选、删除本地下载图片；支持全屏查看
+- 抽屉菜单：新增退出应用操作
+- 搜索：本地关键词历史与输入过滤建议
+- 关于页：手动检查更新；重构更新检测逻辑
+- 发布包：提供分架构 APK（`arm64-v8a`、`armeabi-v7a`、`x86_64`）及 universal 包与 SHA256 校验文件
 
 ### v1.1.3 — 2026-05-29
 

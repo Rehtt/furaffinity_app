@@ -8,11 +8,12 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 
 ## Download
 
-**Android** (APK) — install on your phone and allow installation from unknown sources if prompted.
+**Android** (APK) — install on your phone and allow installation from unknown sources if prompted. The table links to the universal APK (all CPU architectures). Smaller per-architecture APKs (recommended: `arm64-v8a` for most phones) are on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page for each version.
 
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.4** | [furaffinity_app-1.1.4.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.4) |
 | **v1.1.3** | [furaffinity_app-1.1.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.3) |
 | **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
 | **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
@@ -22,6 +23,16 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.4 — 2026-05-29
+
+Release for downloads management, search history, manual update checks, and per-architecture APKs on GitHub Releases.
+
+- Downloads page: browse, multi-select, delete local images; fullscreen viewer
+- Drawer: exit app action
+- Search: local keyword history with filtered suggestions
+- About: manual check for updates; refactored update checker
+- Releases: split APKs (`arm64-v8a`, `armeabi-v7a`, `x86_64`) plus universal APK and SHA256 files
 
 ### v1.1.3 — 2026-05-29
 
