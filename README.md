@@ -13,6 +13,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.3** | [furaffinity_app-1.1.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.3) |
 | **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
 | **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
 | **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
@@ -21,6 +22,14 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.3 — 2026-05-29
+
+Release for watch and follower list avatars.
+
+- User list chips on watch/follower pages now show avatars next to display names
+- Fall back to the default FurAffinity avatar when the list HTML has no avatar image
+- Refreshed list chip layout and styling
 
 ### v1.1.2 — 2026-05-28
 

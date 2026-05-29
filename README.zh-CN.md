@@ -13,6 +13,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.3** | [furaffinity_app-1.1.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.3) |
 | **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
 | **v1.1.1** | [furaffinity_app-1.1.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.1/furaffinity_app-1.1.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.1) |
 | **v1.1.0** | [furaffinity_app-1.1.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.0/furaffinity_app-1.1.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.0) |
@@ -21,6 +22,14 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.3 — 2026-05-29
+
+关注与粉丝列表头像展示改进。
+
+- 关注/粉丝列表中的用户 chip 现在显示头像与显示名
+- 列表 HTML 无头像时回退到 FurAffinity 默认头像
+- 优化列表 chip 布局与样式
 
 ### v1.1.2 — 2026-05-28
 
