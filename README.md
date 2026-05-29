@@ -10,9 +10,12 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 
 **Android** (APK) — install on your phone and allow installation from unknown sources if prompted. The table links to the universal APK (all CPU architectures). Smaller per-architecture APKs (recommended: `arm64-v8a` for most phones) are on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page for each version.
 
+**Website** — [furaffinity-app.furrylab.top](https://furaffinity-app.furrylab.top) (download table, changelog, features).
+
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.5** | [furaffinity_app-1.1.5.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.5) |
 | **v1.1.4** | [furaffinity_app-1.1.4.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.4) |
 | **v1.1.3** | [furaffinity_app-1.1.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.3) |
 | **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
@@ -23,6 +26,14 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.5 — 2026-05-29
+
+Release for multi-provider translation, improved search suggestions, and the official website.
+
+- Translation: Google Translate and Microsoft Translator; refactored translation settings for multiple providers
+- Search: `@field` autocomplete; scrollable history suggestions with max height; show all history when the query is empty
+- Website: official site at https://furaffinity-app.furrylab.top (deployed with each release)
 
 ### v1.1.4 — 2026-05-29
 

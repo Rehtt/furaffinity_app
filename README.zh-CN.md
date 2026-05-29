@@ -10,9 +10,12 @@
 
 **Android**（APK）— 安装到手机后，若系统提示，请允许「未知来源」安装。下表链接为 universal 包（含全部 CPU 架构）。各版本在 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面还提供体积更小的分架构 APK（多数手机推荐 `arm64-v8a`）。
 
+**官网** — [furaffinity-app.furrylab.top](https://furaffinity-app.furrylab.top)（下载表、版本日志、功能介绍）。
+
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.5** | [furaffinity_app-1.1.5.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.5) |
 | **v1.1.4** | [furaffinity_app-1.1.4.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.4) |
 | **v1.1.3** | [furaffinity_app-1.1.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.3/furaffinity_app-1.1.3.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.3) |
 | **v1.1.2** | [furaffinity_app-1.1.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.2/furaffinity_app-1.1.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.2) |
@@ -23,6 +26,14 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.5 — 2026-05-29
+
+多翻译引擎、搜索体验改进，以及官网上线。
+
+- 翻译：新增 Google 翻译与微软翻译；重构翻译设置页，支持多翻译提供商
+- 搜索：`@field` 字段自动补全；历史建议可滚动并限制高度；空输入时显示全部历史
+- 官网：https://furaffinity-app.furrylab.top（随发版自动部署）
 
 ### v1.1.4 — 2026-05-29
 
@@ -115,7 +126,7 @@
 
 ### 翻译（可选）
 
-进入**设置 → 翻译设置**，配置兼容 OpenAI 的 API 地址、密钥、模型与系统提示词。仅在你主动点击翻译时才会请求；未配置第三方端点时不会外发数据。
+进入**设置 → 翻译设置**，选择翻译方式：**LLM（OpenAI 兼容）**、**Google 翻译** 或 **微软翻译**，并填写对应 API 密钥（Azure 还需填写区域）。可配置目标语言。仅在你主动点击翻译时才会请求；未配置所选方式时不会外发数据。标签页优先使用本地标签词典，词典无匹配时再调用所选翻译方式。
 
 ## 法律与商标
 
