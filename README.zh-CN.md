@@ -15,6 +15,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.7** | [furaffinity_app-1.1.7.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.7) |
 | **v1.1.6** | [furaffinity_app-1.1.6.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.6) |
 | **v1.1.5** | [furaffinity_app-1.1.5.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.5) |
 | **v1.1.4** | [furaffinity_app-1.1.4.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.4) |
@@ -27,6 +28,17 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.1.7 — 2026-06-10
+
+围绕 Cloudflare 验证可靠性与 FA 认证图片加载的修复发版。
+
+- Cloudflare 验证：接受验证前须包含 cf_clearance cookie 并通过 WebView 探针
+- 首页、合集、搜索页拒绝仍含 Cloudflare challenge HTML 的验证结果
+- HTTP 客户端、验证流程与 WebView 图片加载器共用 Cloudflare challenge 检测逻辑
+- FA 图片：改用带认证头的 Dart HTTP 拉取字节并配合内存 LRU 缓存，替代 Image.network
+- 设置页清除缓存时同步清空 FA 图片字节缓存
+- WebView 图片加载器探针改用 robots.txt，减轻检查开销
 
 ### v1.1.6 — 2026-06-04
 

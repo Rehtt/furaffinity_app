@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.7** | [furaffinity_app-1.1.7.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.7) |
 | **v1.1.6** | [furaffinity_app-1.1.6.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.6) |
 | **v1.1.5** | [furaffinity_app-1.1.5.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.5) |
 | **v1.1.4** | [furaffinity_app-1.1.4.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.4/furaffinity_app-1.1.4.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.4) |
@@ -27,6 +28,17 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.7 — 2026-06-10
+
+Release for Cloudflare verification reliability and authenticated FA image loading.
+
+- Cloudflare verification: require cf_clearance cookie and WebView probe before accepting verification
+- Reject verification results that still contain Cloudflare challenge HTML on home, collection, and search pages
+- Shared Cloudflare challenge detection across HTTP client, verification flow, and WebView image loader
+- FA images: load via authenticated Dart HTTP with in-memory LRU cache instead of Image.network
+- Settings cache clear now also clears FA image byte cache
+- WebView image loader probe uses robots.txt for lighter checks
 
 ### v1.1.6 — 2026-06-04
 
