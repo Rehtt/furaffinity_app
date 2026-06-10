@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.8** | [furaffinity_app-1.1.8.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.8) |
 | **v1.1.7** | [furaffinity_app-1.1.7.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.7) |
 | **v1.1.6** | [furaffinity_app-1.1.6.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.6) |
 | **v1.1.5** | [furaffinity_app-1.1.5.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.5/furaffinity_app-1.1.5.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.5) |
@@ -28,6 +29,14 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.8 — 2026-06-10
+
+Release for watch/follower list avatar loading with authenticated headers.
+
+- Watch/follower list avatars now use authenticated image request headers (referer from the profile page)
+- UserAvatar: show placeholder on missing URL or load failure; remove default.gif retry loop
+- UserAvatar simplified to a stateless widget
 
 ### v1.1.7 — 2026-06-10
 
