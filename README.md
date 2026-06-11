@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.1.9** | [furaffinity_app-1.1.9.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.9) |
 | **v1.1.8** | [furaffinity_app-1.1.8.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.8) |
 | **v1.1.7** | [furaffinity_app-1.1.7.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.7) |
 | **v1.1.6** | [furaffinity_app-1.1.6.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.6/furaffinity_app-1.1.6.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.6) |
@@ -29,6 +30,17 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.1.9 — 2026-06-11
+
+Release for WebView security, unified cookie handling, login/Cloudflare auto-detection, and submission UX improvements.
+
+- Unified WebView cookie sync across login, Cloudflare verification, settings, and in-app browsing; refactored cookie utilities
+- Login and Cloudflare verification pages auto-return when completion is detected; validate FA login session cookies
+- WebView navigation restricted to allowed FA and Cloudflare hosts; more robust cookie header parsing
+- Security: enforce HTTPS for FA URLs, path containment checks, strip sensitive headers from requests
+- Submission detail: body text is selectable while preserving linkified FA URLs
+- Login-required submissions: localized message with sign-in action from the detail page
 
 ### v1.1.8 — 2026-06-10
 
