@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.2.0** | [furaffinity_app-1.2.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.0) |
 | **v1.1.9** | [furaffinity_app-1.1.9.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.9) |
 | **v1.1.8** | [furaffinity_app-1.1.8.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.8) |
 | **v1.1.7** | [furaffinity_app-1.1.7.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.7) |
@@ -30,6 +31,17 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.2.0 — 2026-06-12
+
+Minor release for notifications, journals, submission comments, NSFW account settings, and improved session persistence after Cloudflare verification.
+
+- Notifications: activity and submissions tabs with authenticated image loading
+- User profiles: Journals tab with paginated list and journal detail page
+- Submissions: post comments and replies when signed in
+- Drawer: live notification badge count
+- Account: read and update FA NSFW viewing settings (password confirmation and cached preference)
+- Session: merge stored cookies with WebView cookies to restore login after Cloudflare verification
 
 ### v1.1.9 — 2026-06-11
 

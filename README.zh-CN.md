@@ -15,6 +15,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.2.0** | [furaffinity_app-1.2.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.0) |
 | **v1.1.9** | [furaffinity_app-1.1.9.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.9) |
 | **v1.1.8** | [furaffinity_app-1.1.8.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.8/furaffinity_app-1.1.8.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.8) |
 | **v1.1.7** | [furaffinity_app-1.1.7.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.7/furaffinity_app-1.1.7.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.7) |
@@ -30,6 +31,17 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.2.0 — 2026-06-12
+
+围绕通知、日志、作品评论、NSFW 账户设置以及 Cloudflare 验证后会话恢复的 minor 发版。
+
+- 通知：活动与作品两个标签页，支持认证图片加载
+- 用户主页：新增 Journals 标签，分页列表与日志详情页
+- 作品详情：登录后可发布评论与回复
+- 侧栏：动态显示未读通知数量
+- 账户：读取/更新 FA NSFW 浏览设置（含密码确认与本地缓存）
+- 会话：合并已保存 Cookie 与 WebView Cookie，CF 验证后恢复登录状态
 
 ### v1.1.9 — 2026-06-11
 
