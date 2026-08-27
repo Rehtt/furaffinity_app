@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.2.2** | [furaffinity_app-1.2.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.2) |
 | **v1.2.1** | [furaffinity_app-1.2.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.1) |
 | **v1.2.0** | [furaffinity_app-1.2.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.0) |
 | **v1.1.9** | [furaffinity_app-1.1.9.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.9) |
@@ -32,6 +33,14 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.2.2 — 2026-08-27
+
+Patch release improving translation feedback and Downloads compatibility on older Android devices.
+
+- Translation: submission and profile translations now show a progress dialog with a Cancel action that aborts in-flight LLM, Google, or Microsoft requests
+- Translation errors: failures remain visible as selectable text in the dialog instead of only transient feedback
+- Downloads: Android 7–9 (API 24–28) now requests legacy storage permission before saving, listing, or deleting files, with explicit handling when permission is denied
 
 ### v1.2.1 — 2026-07-27
 

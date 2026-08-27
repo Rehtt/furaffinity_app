@@ -15,6 +15,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.2.2** | [furaffinity_app-1.2.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.2) |
 | **v1.2.1** | [furaffinity_app-1.2.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.1) |
 | **v1.2.0** | [furaffinity_app-1.2.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.0) |
 | **v1.1.9** | [furaffinity_app-1.1.9.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.1.9/furaffinity_app-1.1.9.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.1.9) |
@@ -32,6 +33,14 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.2.2 — 2026-08-27
+
+改进翻译过程反馈，并修复旧版 Android 的下载目录访问兼容性。
+
+- 翻译：作品页和用户页翻译时显示进度对话框，可取消并中止进行中的 LLM、Google 或 Microsoft 请求
+- 翻译错误：失败信息保留在对话框中并支持选择，不再只显示短暂提示
+- 下载：Android 7–9（API 24–28）在保存、列出或删除下载文件前申请旧版存储权限，并明确处理权限被拒绝的情况
 
 ### v1.2.1 — 2026-07-27
 
