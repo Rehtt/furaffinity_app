@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.2.3** | [furaffinity_app-1.2.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.3) |
 | **v1.2.2** | [furaffinity_app-1.2.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.2) |
 | **v1.2.1** | [furaffinity_app-1.2.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.1) |
 | **v1.2.0** | [furaffinity_app-1.2.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.0/furaffinity_app-1.2.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.0) |
@@ -33,6 +34,14 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.2.3 — 2026-08-28
+
+Patch release adding an opt-in preview update channel and more reliable release discovery.
+
+- Updates: stable users check stable releases by default; an opt-in setting can include preview releases
+- Updates: release versions use strict SemVer ordering to avoid downgrades and incorrect preview matches
+- Release notes: localized notes are shown with a clear warning before preview updates
 
 ### v1.2.2 — 2026-08-27
 
