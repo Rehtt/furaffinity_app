@@ -15,6 +15,7 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 | Version | Download |
 |---------|----------|
 | **Latest** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.3.0** | [furaffinity_app-1.3.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.0/furaffinity_app-1.3.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.0/furaffinity_app-1.3.0.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.3.0) |
 | **v1.2.3** | [furaffinity_app-1.2.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.3) |
 | **v1.2.2** | [furaffinity_app-1.2.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.2) |
 | **v1.2.1** | [furaffinity_app-1.2.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk.sha256) · [Release notes](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.1) |
@@ -34,6 +35,18 @@ An unofficial [Flutter](https://flutter.dev/) client for [FurAffinity](https://w
 Pre-built APKs are published on the [Releases](https://github.com/Rehtt/furaffinity_app/releases) page.
 
 ## Changelog
+
+### v1.3.0 — 2026-08-28
+
+Minor release adding image translation for online submissions, a first-launch disclaimer, and translation settings improvements.
+
+- Image translation: on-device Latin OCR for online submission fullscreen images; only recognized text is sent to the configured Google, Microsoft, or OpenAI-compatible translator (images, cookies, and referers are not uploaded)
+- Image translation: optional vision LLM method that uploads the image to a dedicated OpenAI-compatible endpoint, falling back to the text-translation LLM config when those fields are blank
+- Image translation: zoom-synced overlay with per-image state, hide-to-restore, staged OCR/cloud progress, and cancellable local OCR with recognizer cleanup
+- Translation settings: test the current unsaved text-translation provider and image-LLM configuration before saving
+- Translation UI: in-progress dialog stacks spinner, status, and optional privacy note vertically
+- First launch: disclaimer dialog with a FurAffinity Terms of Service link; acknowledgment is stored on-device and is not included in configuration backup
+- This version does not include CJK OCR, downloaded-image translation, text correction, inpainting, export, on-device translation, or persistent OCR/translation storage
 
 ### v1.2.3 — 2026-08-28
 

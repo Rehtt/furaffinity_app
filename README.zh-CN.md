@@ -15,6 +15,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.3.0** | [furaffinity_app-1.3.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.0/furaffinity_app-1.3.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.0/furaffinity_app-1.3.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.3.0) |
 | **v1.2.3** | [furaffinity_app-1.2.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.3) |
 | **v1.2.2** | [furaffinity_app-1.2.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.2) |
 | **v1.2.1** | [furaffinity_app-1.2.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.1/furaffinity_app-1.2.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.1) |
@@ -34,6 +35,18 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.3.0 — 2026-08-28
+
+正式版：为在线作品新增图片翻译、首次启动免责声明，并改进翻译设置与进度反馈。
+
+- 图片翻译：在线作品全屏图支持设备端拉丁文字 OCR；仅将识别文字发送到已配置的 Google、Microsoft 或 OpenAI-compatible 翻译服务（不上传原图、Cookie 或 Referer）
+- 图片翻译：可选视觉 LLM 方式，将图片发送到独立配置的 OpenAI-compatible 接口（留空则回退文本翻译 LLM 配置）
+- 图片翻译：与缩放同步的覆盖层、按图保存状态、隐藏恢复原图、OCR/云翻译分阶段进度，以及可取消的本地 OCR 与识别器释放
+- 翻译设置：保存前可测试当前未保存的文本翻译服务与图片 LLM 配置
+- 翻译界面：进行中对话框改为纵向排列转圈、状态和可选隐私说明
+- 首次启动：显示免责声明（含 FurAffinity 服务条款链接）；确认记录仅保存在本机，不纳入配置备份
+- 本版暂不支持中日韩 OCR、已下载图片翻译、文字校正、擦字重绘、导出、端侧翻译或持久化保存 OCR/翻译结果
 
 ### v1.2.3 — 2026-08-28
 
