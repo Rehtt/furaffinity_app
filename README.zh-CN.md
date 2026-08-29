@@ -15,6 +15,7 @@
 | 版本 | 下载 |
 |------|------|
 | **最新版** | [Releases](https://github.com/Rehtt/furaffinity_app/releases/latest) |
+| **v1.3.1** | [furaffinity_app-1.3.1.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.1/furaffinity_app-1.3.1.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.1/furaffinity_app-1.3.1.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.3.1) |
 | **v1.3.0** | [furaffinity_app-1.3.0.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.0/furaffinity_app-1.3.0.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.3.0/furaffinity_app-1.3.0.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.3.0) |
 | **v1.2.3** | [furaffinity_app-1.2.3.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.3/furaffinity_app-1.2.3.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.3) |
 | **v1.2.2** | [furaffinity_app-1.2.2.apk](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk) · [SHA256](https://github.com/Rehtt/furaffinity_app/releases/download/v1.2.2/furaffinity_app-1.2.2.apk.sha256) · [发布说明](https://github.com/Rehtt/furaffinity_app/releases/tag/v1.2.2) |
@@ -35,6 +36,16 @@
 安装包见 [Releases](https://github.com/Rehtt/furaffinity_app/releases) 页面。
 
 ## 版本日志
+
+### v1.3.1 — 2026-08-29
+
+围绕图片翻译覆盖层排版、翻译设置入口，以及更可靠的收藏切换的补丁发版。
+
+- 图片翻译：覆盖层改为在图片像素上排版再映射到屏幕框；放不下时缩小适配，不再裁切文字
+- 翻译设置：长按作品页/用户页的翻译 FAB，或全屏页的翻译/显示按钮，可在底部弹层中打开设置
+- 收藏：图标会跟随切换结果更新；失败时以 SnackBar 提示
+- 收藏：当 /fav/ 返回页未包含最新收藏状态时，会重新读取作品页以确认结果
+- 收藏：不再跟随 /fav/ 重定向，避免 Cookie 被丢掉后误报 Cloudflare 人机验证
 
 ### v1.3.0 — 2026-08-28
 
